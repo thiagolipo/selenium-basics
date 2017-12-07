@@ -1,4 +1,4 @@
-package br.com.lojasrenner.pages;
+package br.com.google.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ public abstract class Page {
     }
 
     public void start() {
-        driver.get("http://www.lojasrenner.com.br/");
+        driver.get("http://www.google.com.br/");
         driver.manage().window().maximize();
     }
 

@@ -1,6 +1,4 @@
-package br.com.lojasrenner.config;
-
-import org.openqa.selenium.WebDriver;
+package br.com.google.config;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

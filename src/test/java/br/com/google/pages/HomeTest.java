@@ -1,6 +1,6 @@
-package br.com.lojasrenner.pages;
+package br.com.google.pages;
 
-import br.com.lojasrenner.config.DriverConfig;
+import br.com.google.config.DriverConfig;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
