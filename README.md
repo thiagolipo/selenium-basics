@@ -1,4 +1,4 @@
-#selenium-basics
+# Selenium Basics
 
 This is a basic sample of how to use Selenium WebDriver with Page Object pattern, for those who are starting with
 automated tests for websites
