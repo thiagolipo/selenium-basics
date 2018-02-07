@@ -6,14 +6,14 @@ automated tests for websites
 Bellow, a list of what you should have configured to run this project
 
 
-#Maven
+## Maven
 
 https://maven.apache.org/download.cgi
 If you're familiar with the Java world, this shouldn't be a surprise for you. For who don't know it, in short words,
 Maven is a powerful tool, with this we can manage our build, download the project dependencies.
 
 
-#How do I run it?
+## How do I run it?
 
 Open de project directory and run this command line to install the standalone deendency in your .m2
 
