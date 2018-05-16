@@ -21,10 +21,19 @@ public class Home extends Page {
     @FindBy(css = "input#lst-ib")
     public static WebElement inputSearch;
 
+    @FindBy(css = "input#lst-ib-test")
+    public static WebElement inputSearchSample;
+
     public void searchForText(String text) {
         waitForElement(inputSearch);
         typeText(inputSearch, text);
         inputSearch.sendKeys(Keys.ENTER);
+    }
+
+    public void searchForTextSample(String text) {
+        waitForElement(inputSearchSample);
+        typeText(inputSearchSample, text);
+        inputSearchSample.sendKeys(Keys.ENTER);
     }
 
     @Override

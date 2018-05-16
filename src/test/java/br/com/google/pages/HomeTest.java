@@ -29,4 +29,10 @@ public class HomeTest {
 
         assertTrue(driver.getCurrentUrl().contains("q=perfume"));
     }
+
+    @Test
+    public void searchTestSample() {
+        home.searchForTextSample("perfume");
+        assertTrue(driver.getCurrentUrl().contains("q=perfume"));
+    }
 }
