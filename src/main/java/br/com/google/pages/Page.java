@@ -33,4 +33,8 @@ public abstract class Page {
     public void waitForElement(WebElement element) {
         new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(element));
     }
+
+    public void clearElement(WebElement element) {
+        new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(element));
+    }
 }
